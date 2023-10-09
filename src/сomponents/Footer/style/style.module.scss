@@ -1,0 +1,35 @@
+.footer_main {
+    text-align: center;
+    z-index: 5;
+    padding: 30px;
+    background-color: #000;
+
+    .footer_main_img {
+        display: flex;
+justify-content: center;
+align-items: center;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            img {
+                margin: 0px 15px 20px 15px;
+                max-height: 30px
+            }
+        }
+      
+    }
+    .footer_main_text{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        p{
+            font-size: 14px;
+            color: #777;
+            width: 60%;
+            margin: 0 auto;
+            max-width: 500px;
+        }
+    }
+}

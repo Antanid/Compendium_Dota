@@ -1,0 +1,39 @@
+.price_end_main{
+   
+    .price_end_moreInformation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 19vw;
+        background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/international2023/compendium_bottom.jpg);
+        background-size: 100% auto;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        a {
+            list-style-type: none;
+            button {
+                border: none;
+                color: #fff;
+                font-size: 24px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                display: inline-block;
+                padding: 12px 32px;
+                margin: 32px 0px;
+                border-radius: 3px;
+                background: linear-gradient(to bottom, #2D9ED0, #0A5993);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .price_end_main{
+    .price_end_moreInformation{
+        background-size: auto;
+        background-position: center;
+    }
+}
+}

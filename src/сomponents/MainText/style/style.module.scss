@@ -1,0 +1,103 @@
+.main_text {
+    width: 100%;
+
+    .main_text_block {
+        width: 100%;
+        padding: calc(24px + 6vw) 0px calc(24px + 6vw);
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .main_text_previe {
+            z-index: 2;
+
+            h2 {
+                font-family: "Reaver", serif;
+                text-transform: uppercase;
+                text-align: center;
+                z-index: 2;
+                font-size: clamp(40px, 5vw, 140px);
+                font-weight: 700;
+                letter-spacing: 2px;
+                color: #fff;
+                background: linear-gradient(to bottom, #176490, #30A4D5);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: rgba(0, 0, 0, 0);
+                line-height: 1.2;
+                padding: 0px 24px;
+            }
+        }
+
+        .main_text_h3 {
+            z-index: 1;
+
+            h3 {
+                font-family: "Reaver", serif;
+                margin-bottom: 12px;
+                font-size: clamp(20px, 2.2vw, 38px);
+                line-height: 1.5;
+                background: linear-gradient(to bottom, #176490, #30A4D5);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: rgba(0, 0, 0, 0);
+                text-align: center;
+                letter-spacing: 0px;
+                font-weight: 600;
+                padding: 1vw 20vw;
+
+            }
+        }
+
+        .main_text_background {
+            background-image: url('../../../image/mainTextBg.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 79vw;
+            width: 100%;
+            margin: -12vw 0px -8vw;
+        }
+
+        .main_text_secendText {
+            text-align: center;
+            padding: 0vw 12vw;
+
+            p {
+                margin-top: 20px;
+                color: #176490;
+                font-weight: normal;
+                letter-spacing: 0px;
+                font-size: clamp(18px, 2.2vw, 25px);
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+.line_header {
+    display: flex;
+    height: 8px;
+    margin-top: 0px;
+
+    img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .main_text{
+        .main_text_block{
+            .main_text_previe{
+                h2{
+                    font-size: clamp(28px, 5vw, 140px);
+                }
+                .main_text_secendText{
+                    p{
+                        font-size: clamp(14px, 2.2vw, 25px);
+                    }
+                }
+            }
+           
+        }
+    }
+}

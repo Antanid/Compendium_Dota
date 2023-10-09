@@ -1,0 +1,104 @@
+.quest_main {
+    background-color: #011017;
+    background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/international2023/bg_night_compendium_subsection.jpg);
+    background-size: 100% auto;
+    background-position: top;
+    background-repeat: no-repeat;
+
+
+    .quest_mainText {
+
+        h2,
+        h5 {
+            background: linear-gradient(to bottom, #EADAC0, #CBB593);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: rgba(0, 0, 0, 0);
+        }
+
+        h2 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: clamp(32px, 4vw, 72px);
+            font-family: "Reaver", serif;
+            font-weight: 700;
+            text-align: center;
+            padding-top: calc(36px + 4vw);
+            padding-bottom: calc(12px + 1vw);
+            margin: 0px;
+            line-height: 1.2;
+        }
+
+        h5 {
+            color: #eadac0;
+            padding: calc(8px + 1vw) 16vw 40px 16vw;
+            text-align: center;
+            font-size: clamp(24px, 3vw, 40px);
+            line-height: 1;
+            margin-top: -1vw;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p {
+            padding: 0px 8vw 32px 8vw;
+            font-family: "Reaver", serif;
+            color: #c9d2de;
+            padding: 0px 16vw 2.5vw 16vw;
+            text-align: center;
+            font-size: clamp(18px, 1.6vw, 28px);
+            letter-spacing: .2px;
+            line-height: 1.5;
+            max-width: 1920px;
+            margin: 2vw auto 1vw;
+        }
+    }
+
+   
+
+    .quest_blockImg {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        .quest_blockImg_text {
+       text-align: center;
+            max-width: 500px;
+            max-width: 36%;
+            padding: 1vw;
+
+            h5 {
+                background: linear-gradient(to bottom, #30A4D5, #31C8DB);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: rgba(0, 0, 0, 0);
+                font-family: "Reaver",sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: clamp(20px,3vw,48px);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 1.2;
+            }
+
+            p {
+                font-family: "Radiance", sans-serif;
+                text-align: center;
+                font-size: clamp(17px, 2vw, 20px);
+                line-height: 1.4;
+                color: #a2acb8;
+                
+            }
+        }
+
+        .quest_blockImg_img {
+            max-width: 54%;
+        }
+    }
+    .quest_line{
+        margin-top: 100px;
+    }
+
+}

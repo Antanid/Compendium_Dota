@@ -1,0 +1,591 @@
+.compendiumPrice {
+    text-align: center;
+    background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/international2023/bg_night_compendium_alt.jpg);
+    
+    background-position: top;
+    background-repeat: no-repeat;
+
+
+    .compendiumPrice_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .compendiumPrice_img_aegis {
+            margin-top: calc(16px + 4vw);
+            width: 32vw;
+            min-width: 260px;
+            max-width: 540px;
+        }
+
+        p {
+            padding-top: 10px;
+            color: #31c8db;
+            background: linear-gradient(to bottom, #30A4D5, #31C8DB);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: rgba(0, 0, 0, 0);
+            text-align: center;
+            font-size: clamp(44px, 6vw, 120px);
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            line-height: 1.2;
+            font-weight: 800;
+        }
+
+        .compendiumPrice_img_star {
+            padding-top: 10px;
+            width: clamp(120px, 12vw, 200px);
+            transform: translateY(-0.5vw);
+        }
+    }
+
+    .compendiumPrice_img_text {
+        font-family: "Reaver", serif;
+        color: #c9d2de;
+        margin: 0px 16vw 2.5vw 16vw;
+        text-align: center;
+        font-size: clamp(18px, 1.6vw, 28px);
+        letter-spacing: .2px;
+        line-height: 1.5;
+        max-width: 1920px;
+        margin: 2vw auto 1vw;
+
+        p {
+            margin: 20px 0;
+        }
+    }
+
+    .compendiumPrice_img_priceBlock_main {
+        background-color: #011017;
+
+        .compendiumPrice_img_priceBlock {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+
+
+            .compendiumPrice_img_priceBlock_standart {
+                height: 650px;
+                border-top: 2px solid rgb(35, 126, 165);
+                background-image: linear-gradient(rgb(0, 23, 44), rgb(1, 14, 26));
+                width: 30vw;
+                max-width: 600px;
+                padding-bottom: 24px;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-grow: 1;
+
+
+                .compendiumPrice_img_priceBlock_textH4 {
+                    text-align: center;
+
+                    h4 {
+                        color: #fff;
+                        margin: 16px 20px 0px 20px;
+                        line-height: 160%;
+                        padding: 3px 0px;
+                        font-size: 28px;
+                        font-family: "Reaver", serif;
+                        font-weight: 900;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                    }
+
+                    p {
+                        font-size: 20px;
+                        color: #fff;
+                    }
+
+                    .compendiumPrice_img_priceBlock_line {
+                        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(42, 152, 203, 0.8156862745), rgba(255, 255, 255, 0));
+                        width: 33vw;
+                        max-width: 500px;
+                        height: 1px;
+                        margin: 15px auto;
+                    }
+                }
+
+                .compendiumPrice_img_priceBlock_level {
+                    padding-top: 10px;
+
+                    h5 {
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        letter-spacing: 2px;
+                        color: #fff;
+                    }
+
+                    ul {
+                        padding: 25px;
+
+                        li {
+                            font-size: 16px;
+                            text-align: left;
+                            color: #a2acb8;
+                        }
+                    }
+                }
+
+                .compendiumPrice_img_priceBlock_buy {
+                    margin-top: 90px;
+
+                    .compendiumPrice_img_priceBlock_buy_button {
+                        border: none;
+                        background-image: linear-gradient(rgb(35, 126, 165), rgb(35, 126, 165));
+                        color: #fff;
+                        transition: .1s;
+                        border-radius: 3px;
+                        box-shadow: 0px 4px 8px rgba(0, 0, 0, .5294117647);
+                        cursor: pointer;
+                        padding: 12px 60px;
+
+                        color: #fff;
+                        font-size: 24px;
+                        font-family: "Radiance", serif;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        letter-spacing: .12em;
+                        line-height: 100%;
+                        a{
+                            text-decoration: none;
+                            color: #fff;
+                        }
+
+                        &:hover {
+                            transform: scale(1.1);
+                            transition: all 0.3s ease-in-out;
+                        }
+                    }
+
+                    p {
+                        padding-top: 15px;
+                        font-size: 16px;
+                        color: #a2acb8;
+                    }
+                }
+            }
+
+            .compendiumPrice_img_priceBlock_deluxe {
+                height: 650px;
+                border-top: 2px solid rgb(189, 176, 153);
+                background-image: linear-gradient(rgb(23, 95, 138), rgb(0, 41, 72));
+                width: 30vw;
+                max-width: 600px;
+                padding-bottom: 24px;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-grow: 1;
+
+                .compendiumPrice_img_priceBlock_textH4 {
+                    text-align: center;
+
+                    h4 {
+                        color: #fff;
+                        margin: 16px 20px 0px 20px;
+                        line-height: 160%;
+                        padding: 3px 0px;
+                        font-size: 28px;
+                        font-family: "Reaver", serif;
+                        font-weight: 900;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                    }
+
+                    p {
+                        font-size: 20px;
+                        color: #fff;
+                    }
+
+                    .compendiumPrice_img_priceBlock_line {
+                        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(42, 152, 203, 0.8156862745), rgba(255, 255, 255, 0));
+                        width: 33vw;
+                        max-width: 500px;
+                        height: 1px;
+                        margin: 15px auto;
+                    }
+                }
+
+                .compendiumPrice_img_priceBlock_level {
+                    padding-top: 10px;
+
+                    h5 {
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        letter-spacing: 2px;
+                        color: #fff;
+                    }
+
+                    ul {
+                        padding: 25px;
+
+                        li {
+                            font-size: 16px;
+                            text-align: left;
+                            color: #a2acb8;
+                        }
+                    }
+                }
+
+                .compendiumPrice_img_priceBlock_buy {
+                    margin-top: 50px;
+
+                    .compendiumPrice_img_priceBlock_buy_button {
+                        border: none;
+                        background-image: linear-gradient(rgb(35, 126, 165), rgb(35, 126, 165));
+                        color: #fff;
+                        transition: .1s;
+                        border-radius: 3px;
+                        box-shadow: 0px 4px 8px rgba(0, 0, 0, .5294117647);
+                        cursor: pointer;
+                        padding: 12px 60px;
+                        color: #fff;
+                        font-size: 24px;
+                        font-family: "Radiance", serif;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        letter-spacing: .12em;
+                        line-height: 100%;
+                        a{
+                            text-decoration: none;
+                            color: #fff;
+                        }
+
+                        &:hover {
+                            transform: scale(1.1);
+                            transition: all 0.3s ease-in-out;
+                        }
+                    }
+
+                    .compendiumPrice_img_priceBlock_buy_text {
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+
+                        p {
+
+                            padding-top: 15px;
+                            font-size: 16px;
+                            color: #a2acb8;
+                            width: 300px;
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+      
+    }
+    .compendiumPrice_moreInformation {
+        padding-top: 30px;
+        padding-bottom: 80px;
+        background-color: #011017;
+        a {
+            list-style-type: none;
+            button {
+                border: none;
+                color: #fff;
+                font-size: 24px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                display: inline-block;
+                padding: 12px 32px;
+                margin: 32px 0px;
+                border-radius: 3px;
+                background: linear-gradient(to bottom, #2D9ED0, #0A5993);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.compendiumPrice_img_priceBlock_main {
+    background-color: #011017;
+
+    .compendiumPrice_img_priceBlock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+
+
+        .compendiumPrice_img_priceBlock_standart {
+            height: 650px;
+            border-top: 2px solid rgb(35, 126, 165);
+            background-image: linear-gradient(rgb(0, 23, 44), rgb(1, 14, 26));
+            width: 30vw;
+            max-width: 600px;
+            padding-bottom: 24px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-grow: 1;
+
+
+            .compendiumPrice_img_priceBlock_textH4 {
+                text-align: center;
+
+                h4 {
+                    color: #fff;
+                    margin: 16px 20px 0px 20px;
+                    line-height: 160%;
+                    padding: 3px 0px;
+                    font-size: 28px;
+                    font-family: "Reaver", serif;
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                }
+
+                p {
+                    font-size: 20px;
+                    color: #fff;
+                }
+
+                .compendiumPrice_img_priceBlock_line {
+                    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(42, 152, 203, 0.8156862745), rgba(255, 255, 255, 0));
+                    width: 33vw;
+                    max-width: 500px;
+                    height: 1px;
+                    margin: 15px auto;
+                }
+            }
+
+            .compendiumPrice_img_priceBlock_level {
+                padding-top: 10px;
+
+                h5 {
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    color: #fff;
+                }
+
+                ul {
+                    padding: 25px;
+
+                    li {
+                        font-size: 16px;
+                        text-align: left;
+                        color: #a2acb8;
+                    }
+                }
+            }
+
+            .compendiumPrice_img_priceBlock_buy {
+                margin-top: 90px;
+
+                .compendiumPrice_img_priceBlock_buy_button {
+                    border: none;
+                    background-image: linear-gradient(rgb(35, 126, 165), rgb(35, 126, 165));
+                    color: #fff;
+                    transition: .1s;
+                    border-radius: 3px;
+                    box-shadow: 0px 4px 8px rgba(0, 0, 0, .5294117647);
+                    cursor: pointer;
+                    padding: 12px 60px;
+                    color: #fff;
+                    font-size: 24px;
+                    font-family: "Radiance", serif;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: .12em;
+                    line-height: 100%;
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                    }
+
+                    &:hover {
+                        transform: scale(1.1);
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+
+                p {
+                    padding-top: 15px;
+                    font-size: 16px;
+                    color: #a2acb8;
+                }
+            }
+        }
+
+        .compendiumPrice_img_priceBlock_deluxe {
+            height: 650px;
+            border-top: 2px solid rgb(189, 176, 153);
+            background-image: linear-gradient(rgb(23, 95, 138), rgb(0, 41, 72));
+            width: 30vw;
+            max-width: 600px;
+            padding-bottom: 24px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-grow: 1;
+
+            .compendiumPrice_img_priceBlock_textH4 {
+                text-align: center;
+
+                h4 {
+                    color: #fff;
+                    margin: 16px 20px 0px 20px;
+                    line-height: 160%;
+                    padding: 3px 0px;
+                    font-size: 28px;
+                    font-family: "Reaver", serif;
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                }
+
+                p {
+                    font-size: 20px;
+                    color: #fff;
+                }
+
+                .compendiumPrice_img_priceBlock_line {
+                    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(42, 152, 203, 0.8156862745), rgba(255, 255, 255, 0));
+                    width: 33vw;
+                    max-width: 500px;
+                    height: 1px;
+                    margin: 15px auto;
+                }
+            }
+
+            .compendiumPrice_img_priceBlock_level {
+                padding-top: 10px;
+
+                h5 {
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    color: #fff;
+                }
+
+                ul {
+                    padding: 25px;
+
+                    li {
+                        font-size: 16px;
+                        text-align: left;
+                        color: #a2acb8;
+                    }
+                }
+            }
+
+            .compendiumPrice_img_priceBlock_buy {
+                margin-top: 50px;
+
+                .compendiumPrice_img_priceBlock_buy_button {
+                    border: none;
+                    background-image: linear-gradient(rgb(35, 126, 165), rgb(35, 126, 165));
+                    color: #fff;
+                    transition: .1s;
+                    border-radius: 3px;
+                    box-shadow: 0px 4px 8px rgba(0, 0, 0, .5294117647);
+                    cursor: pointer;
+                    padding: 12px 60px;
+                    color: #fff;
+                    font-size: 24px;
+                    font-family: "Radiance", serif;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: .12em;
+                    line-height: 100%;
+
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                    }
+
+                    &:hover {
+                        transform: scale(1.1);
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+
+                .compendiumPrice_img_priceBlock_buy_text {
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+
+                    p {
+
+                        padding-top: 15px;
+                        font-size: 16px;
+                        color: #a2acb8;
+                        width: 300px;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    
+}
+
+@media (max-width: 970px) {
+    .compendiumPrice {
+        background-size: auto;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .compendiumPrice_img_priceBlock_main{
+        .compendiumPrice_img_priceBlock{
+            flex-direction: column;
+            .compendiumPrice_img_priceBlock_standart{
+                height: 100%;
+                width: auto;
+            }
+            .compendiumPrice_img_priceBlock_deluxe{
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+}
+@media (max-width: 800px) {
+    .compendiumPrice{
+    .compendiumPrice_img_priceBlock_main{
+        .compendiumPrice_img_priceBlock{
+            flex-direction: column;
+            .compendiumPrice_img_priceBlock_standart{
+                height: 100%;
+                width: auto;
+            }
+            .compendiumPrice_img_priceBlock_deluxe{
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+}
+}

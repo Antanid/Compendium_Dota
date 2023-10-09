@@ -1,0 +1,170 @@
+.awards_main {
+    background-color: #011017;
+    background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/international2023/bg_night_compendium_subsection.jpg);
+    background-size: 100% auto;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    .awards_mainText {
+
+        h2,
+        h5 {
+            background: linear-gradient(to bottom, #EADAC0, #CBB593);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: rgba(0, 0, 0, 0);
+        }
+
+        h2 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: clamp(32px, 4vw, 72px);
+            font-family: "Reaver", serif;
+            font-weight: 700;
+            text-align: center;
+            padding-top: calc(36px + 4vw);
+            padding-bottom: calc(12px + 1vw);
+            margin: 0px;
+            line-height: 1.2;
+        }
+
+        p {
+            padding: 0px 8vw 32px 8vw;
+            font-family: "Reaver", serif;
+            color: #c9d2de;
+            padding: 0px 16vw 2.5vw 16vw;
+            text-align: center;
+            font-size: clamp(18px, 1.6vw, 28px);
+            letter-spacing: .2px;
+            line-height: 1.5;
+            max-width: 1920px;
+            margin: 2vw auto 1vw;
+        }
+    }
+
+    .awards_secendText {
+        padding: 0.5vw 20vw 0vw 20vw;
+
+        h5 {
+            background: linear-gradient(to bottom, #30A4D5, #31C8DB);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: rgba(0, 0, 0, 0);
+            font-family: "Reaver", sans-serif;
+            text-align: center;
+            font-weight: bold;
+            font-size: clamp(20px, 3vw, 48px);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        p {
+            font-size: clamp(17px, 2vw, 30px);
+            font-family: "Radiance", sans-serif;
+            text-align: center;
+            font-size: clamp(17px, 2vw, 20px);
+            line-height: 1.4;
+            color: #a2acb8;
+        }
+
+    }
+
+    .awards_bonus{
+        display: flex;
+        margin-top: 80px;
+        padding: 2vw 4vw 6vw;
+      
+.awards_bonus_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 12px;
+    width: fit-content;
+    justify-content: space-between;
+
+    .awards_bonus_div_text{
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ flex-direction: column;
+h5{
+    font-weight: 700;
+    font-size: clamp(18px,2vw,26px);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+    margin-top: 10px;
+    color: #a2acb8;
+    font-size: 17px;
+    letter-spacing: .5px;
+    text-align: center;
+  
+}
+    }
+    img{
+        display: block;
+        max-height: 420px;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        
+    }
+}
+    }
+
+    .awards_level{
+        display: flex;
+        padding: 0vw 4vw 0vw 1vw;
+        justify-content: space-evenly;
+        .awards_level_block{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .awards_level_block_text{
+                padding: 1vw;
+                h5{
+                    background: linear-gradient(to bottom, #30A4D5, #31C8DB);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: rgba(0,0,0,0);
+                    font-size: clamp(14px,2vw,30px);
+                    text-align: left;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                    line-height: 1.2;
+                    font-weight: bold;
+                }
+                p{
+                    text-align: left;
+                    font-size: clamp(17px,2vw,20px);
+                    line-height: 1.4;
+                    color: #a2acb8;
+
+                }
+            }
+            img{
+                width: 35%;
+                padding: 0vw 1vw;
+            }
+        }
+    }
+
+    .awards_line {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 700px) {
+    .awards_main {
+        .awards_bonus{
+            display: block;
+        }
+       .awards_level{
+        display: block;
+       }
+    }
+}

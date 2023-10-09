@@ -1,0 +1,74 @@
+.arrow {
+  position: absolute;
+  color: #000000;
+  font-size: 2.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nextArrow {
+  top: 40%;
+  right: -45px;
+}
+
+.prevArrow {
+  top: 40%;
+  left: -45px;
+}
+
+.slick-dots {
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+  padding: 0;
+  border-radius: 40px;
+  width: 70px;
+  text-align: center;
+  bottom: 50px;
+}
+
+.slick-dots li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 3px;
+  padding: 0;
+}
+
+.slick-dots li button {
+  border: none;
+  background: #a53692;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 15px;
+  width: 15px;
+  border-radius: 7.5px;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #30a4d5;
+  content: none;
+  border-radius: 20px;
+}
+.slick-dots li.slick-active button::before {
+  content: none;
+}
+
+.slick-dots li button:before {
+  border: none;
+  background: #ffffff;
+
+  cursor: pointer;
+  display: block;
+  height: 15px;
+  width: 15px;
+  border-radius: 7.5px;
+  border-radius: 20px;
+color: transparent;
+}
+@media (max-width: 920px) {
+  .arrow {
+    display: none;
+  }
+}
